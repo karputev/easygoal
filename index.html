@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EasyGoal — Football Academy Management App</title>
+<meta name="description" content="The all-in-one iOS app for football academies. Manage training sessions, tournaments, payments, and player development — beautifully designed for coaches, parents, and school owners.">
+<meta name="keywords" content="football academy app, soccer management, youth football, training sessions, tournament organizer, sports app iOS">
+<meta property="og:title" content="EasyGoal — Football Academy Management">
+<meta property="og:description" content="Manage your football academy from one beautiful app. Training, tournaments, payments, analytics.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://easygoal.site">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+  <div class="container nav-content">
+    <a href="#" class="logo">
+      <span class="logo-icon">⚽</span>
+      <span class="logo-text">EasyGoal</span>
+    </a>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#roles">Who It's For</a>
+      <a href="#tournaments">Tournaments</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="#download" class="btn btn-primary btn-sm">Download App</a>
+    <button class="mobile-menu-btn" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-bg-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+  </div>
+  <div class="container hero-content">
+    <div class="hero-text">
+      <div class="hero-badge">🏆 #1 Football Academy App</div>
+      <h1>Manage Your Football Academy <span class="gradient-text">Beautifully</span></h1>
+      <p class="hero-subtitle">Training sessions, tournaments, payments, player development — everything your football school needs in one powerful iOS app.</p>
+      <div class="hero-actions">
+        <a href="#download" class="btn btn-primary btn-lg">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor"><path d="M14.5 13.5C14.5 14.3284 13.8284 15 13 15H7C6.17157 15 5.5 14.3284 5.5 13.5V6.5C5.5 5.67157 6.17157 5 7 5H13C13.8284 5 14.5 5.67157 14.5 6.5V13.5Z"/></svg>
+          Download for iOS
+        </a>
+        <a href="#features" class="btn btn-outline btn-lg">Explore Features</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">4</span><span class="stat-label">User Roles</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">7+</span><span class="stat-label">Languages</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Secure</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="phone-mockup">
+        <div class="phone-screen">
+          <div class="mock-status-bar">
+            <span>9:41</span>
+            <span>●●●</span>
+          </div>
+          <div class="mock-app">
+            <div class="mock-greeting">Good morning, Maria 👋</div>
+            <div class="mock-subtitle">Tigers FC Academy</div>
+            <div class="mock-stats-row">
+              <div class="mock-stat-card green"><div class="mock-stat-val">24</div><div class="mock-stat-lbl">Sessions</div></div>
+              <div class="mock-stat-card blue"><div class="mock-stat-val">92%</div><div class="mock-stat-lbl">Attendance</div></div>
+              <div class="mock-stat-card amber"><div class="mock-stat-val">4.8</div><div class="mock-stat-lbl">Avg Rating</div></div>
+            </div>
+            <div class="mock-section-title">This Week</div>
+            <div class="mock-session-card">
+              <div class="mock-session-dot green"></div>
+              <div class="mock-session-info">
+                <div class="mock-session-name">U-12 Training</div>
+                <div class="mock-session-detail">Mon 16:00 · Main Pitch</div>
+              </div>
+              <div class="mock-session-badge">60 min</div>
+            </div>
+            <div class="mock-session-card">
+              <div class="mock-session-dot orange"></div>
+              <div class="mock-session-info">
+                <div class="mock-session-name">Friendly Match</div>
+                <div class="mock-session-detail">Wed 15:00 · Stadium B</div>
+              </div>
+              <div class="mock-session-badge">90 min</div>
+            </div>
+            <div class="mock-tab-bar">
+              <div class="mock-tab active">🏠</div>
+              <div class="mock-tab">📅</div>
+              <div class="mock-tab">🏃</div>
+              <div class="mock-tab">💳</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="features">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Features</span>
+      <h2>Everything Your Academy Needs</h2>
+      <p>From daily training to tournament management — EasyGoal covers the full journey of running a football school.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon green">📅</div>
+        <h3>Training Calendar</h3>
+        <p>Schedule and manage all training sessions, matches, tournaments, and fitness classes. Color-coded by type with full detail views.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon blue">🏃</div>
+        <h3>Activity Tracking</h3>
+        <p>Track attendance, skill ratings, performance metrics, and coach feedback. Generate PDF progress reports for parents.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon amber">💳</div>
+        <h3>Payments &amp; Invoicing</h3>
+        <p>Send invoices, track outstanding balances, accept payments via Stripe. Multiple payment methods supported with full history.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon purple">🏆</div>
+        <h3>Tournament Management</h3>
+        <p>Create tournaments with Round Robin, Knockout, Group Stage, or League formats. Live scoring, standings, and shareable results pages.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon red">📊</div>
+        <h3>Analytics Dashboard</h3>
+        <p>Revenue tracking, attendance trends, team participation charts, and top performers — data-driven decisions for your academy.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon teal">🌍</div>
+        <h3>Multi-Language</h3>
+        <p>Available in English, German, Spanish, French, Portuguese, Arabic, and Turkish — serving football academies worldwide.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Roles Section -->
+<section id="roles" class="roles">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Who It's For</span>
+      <h2>Built for Every Role</h2>
+      <p>Whether you're running the academy, coaching on the pitch, or watching from the sidelines — EasyGoal has your view ready.</p>
+    </div>
+    <div class="roles-grid">
+      <div class="role-card">
+        <div class="role-emoji">🏫</div>
+        <h3>School Owners</h3>
+        <p>Full admin dashboard with analytics, revenue tracking, member management, subscription tiers, and sponsor management.</p>
+        <ul class="role-features">
+          <li>Analytics &amp; revenue reports</li>
+          <li>Team &amp; member management</li>
+          <li>Subscription plans (Trial, Starter, Pro, Enterprise)</li>
+        </ul>
+      </div>
+      <div class="role-card">
+        <div class="role-emoji">⚽</div>
+        <h3>Coaches</h3>
+        <p>Manage sessions, enter match scores live, leave detailed feedback for players, and track skill development over time.</p>
+        <ul class="role-features">
+          <li>Live match scoring</li>
+          <li>Player feedback system</li>
+          <li>Session check-in tracking</li>
+        </ul>
+      </div>
+      <div class="role-card">
+        <div class="role-emoji">👨‍👩‍👧</div>
+        <h3>Parents</h3>
+        <p>Stay connected with your child's progress, view upcoming sessions, pay fees, and receive coach feedback — all in real time.</p>
+        <ul class="role-features">
+          <li>Child progress tracking</li>
+          <li>Easy payment management</li>
+          <li>Push notification alerts</li>
+        </ul>
+      </div>
+      <div class="role-card">
+        <div class="role-emoji">🏅</div>
+        <h3>Tournament Organizers</h3>
+        <p>Create and run tournaments end-to-end. Manage team registrations, schedule matches, enter live scores, and share results publicly.</p>
+        <ul class="role-features">
+          <li>4 tournament formats</li>
+          <li>Team registration &amp; approval</li>
+          <li>Web export for sharing</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tournaments Section -->
+<section id="tournaments" class="tournaments">
+  <div class="container">
+    <div class="section-header light">
+      <span class="section-tag">Tournaments</span>
+      <h2>Run Professional Tournaments</h2>
+      <p>From grassroots to competitive — EasyGoal supports every format your academy needs.</p>
+    </div>
+    <div class="tournament-formats">
+      <div class="format-card">
+        <div class="format-icon">🔄</div>
+        <h4>Round Robin</h4>
+        <p>Every team plays every other team. Full standings with points, goal difference, and rankings.</p>
+      </div>
+      <div class="format-card">
+        <div class="format-icon">⚡</div>
+        <h4>Knockout</h4>
+        <p>Single-elimination bracket. Win or go home — perfect for cup-style tournaments.</p>
+      </div>
+      <div class="format-card">
+        <div class="format-icon">📋</div>
+        <h4>Group Stage</h4>
+        <p>Groups followed by knockout rounds. The classic World Cup format for your academy.</p>
+      </div>
+      <div class="format-card">
+        <div class="format-icon">📈</div>
+        <h4>League</h4>
+        <p>Full season format with home and away fixtures. Track standings across the entire campaign.</p>
+      </div>
+    </div>
+    <div class="tournament-features-row">
+      <div class="tourn-feature">
+        <span class="tourn-feat-icon">🎯</span>
+        <span>Live Score Entry</span>
+      </div>
+      <div class="tourn-feature">
+        <span class="tourn-feat-icon">📊</span>
+        <span>Auto Standings</span>
+      </div>
+      <div class="tourn-feature">
+        <span class="tourn-feat-icon">🌐</span>
+        <span>Web Export &amp; Share</span>
+      </div>
+      <div class="tourn-feature">
+        <span class="tourn-feat-icon">📝</span>
+        <span>Team Registrations</span>
+      </div>
+      <div class="tourn-feature">
+        <span class="tourn-feat-icon">🟨</span>
+        <span>Match Events Log</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing Section -->
+<section id="pricing" class="pricing">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Pricing</span>
+      <h2>Simple Plans for Every Academy</h2>
+      <p>Start free and scale as you grow. No hidden fees, cancel anytime.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <div class="price-name">Trial</div>
+        <div class="price-amount">Free</div>
+        <div class="price-period">14 days</div>
+        <ul class="price-features">
+          <li>Up to 20 players</li>
+          <li>Basic calendar</li>
+          <li>1 tournament</li>
+          <li>Email support</li>
+        </ul>
+        <a href="#download" class="btn btn-outline btn-full">Start Free Trial</a>
+      </div>
+      <div class="price-card featured">
+        <div class="price-badge">Most Popular</div>
+        <div class="price-name">Starter</div>
+        <div class="price-amount">€19<span>/mo</span></div>
+        <div class="price-period">per academy</div>
+        <ul class="price-features">
+          <li>Up to 100 players</li>
+          <li>Full calendar &amp; activity</li>
+          <li>Payment management</li>
+          <li>5 tournaments</li>
+          <li>Priority support</li>
+        </ul>
+        <a href="#download" class="btn btn-primary btn-full">Get Started</a>
+      </div>
+      <div class="price-card">
+        <div class="price-name">Pro</div>
+        <div class="price-amount">€49<span>/mo</span></div>
+        <div class="price-period">per academy</div>
+        <ul class="price-features">
+          <li>Unlimited players</li>
+          <li>Advanced analytics</li>
+          <li>Unlimited tournaments</li>
+          <li>Sponsor management</li>
+          <li>PDF reports</li>
+          <li>Dedicated support</li>
+        </ul>
+        <a href="#download" class="btn btn-outline btn-full">Go Pro</a>
+      </div>
+      <div class="price-card">
+        <div class="price-name">Enterprise</div>
+        <div class="price-amount">Custom</div>
+        <div class="price-period">contact us</div>
+        <ul class="price-features">
+          <li>Multi-academy support</li>
+          <li>Custom integrations</li>
+          <li>White-label option</li>
+          <li>SLA guarantee</li>
+          <li>Onboarding assistance</li>
+          <li>24/7 support</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline btn-full">Contact Sales</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Download / CTA Section -->
+<section id="download" class="download">
+  <div class="container download-content">
+    <div class="download-text">
+      <h2>Ready to Level Up Your Academy?</h2>
+      <p>Join football schools worldwide using EasyGoal to streamline operations and delight parents.</p>
+      <a href="https://apps.apple.com" class="app-store-btn" target="_blank" rel="noopener">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09 22C7.79 22.05 6.8 20.68 5.96 19.47C4.25 16.56 2.93 11.3 4.7 7.72C5.57 5.94 7.36 4.86 9.28 4.84C10.56 4.81 11.78 5.72 12.58 5.72C13.38 5.72 14.86 4.62 16.39 4.8C17.03 4.83 18.8 5.06 19.91 6.72C19.79 6.8 17.47 8.15 17.5 10.96C17.53 14.34 20.42 15.44 20.46 15.46C20.42 15.55 19.97 17.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z"/></svg>
+        <div>
+          <span class="small-text">Download on the</span>
+          <span class="big-text">App Store</span>
+        </div>
+      </a>
+    </div>
+    <div class="download-visual">
+      <div class="floating-cards">
+        <div class="float-card fc-1">⚽ Training at 4 PM</div>
+        <div class="float-card fc-2">💳 Invoice Paid ✓</div>
+        <div class="float-card fc-3">🏆 Tournament Live!</div>
+        <div class="float-card fc-4">⭐ Skill Rating: 4.8</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer id="contact" class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="logo-icon">⚽</span>
+          <span class="logo-text">EasyGoal</span>
+        </div>
+        <p>The all-in-one football academy management platform. Built with love for the beautiful game.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Product</h4>
+        <a href="#features">Features</a>
+        <a href="#tournaments">Tournaments</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#download">Download</a>
+      </div>
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="mailto:support@easygoal.site">Contact Us</a>
+      </div>
+      <div class="footer-links">
+        <h4>Connect</h4>
+        <a href="mailto:support@easygoal.site">support@easygoal.site</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter / X</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 EasyGoal. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Mobile menu toggle
+const menuBtn = document.querySelector('.mobile-menu-btn');
+const navLinks = document.querySelector('.nav-links');
+menuBtn?.addEventListener('click', () => {
+  navLinks.classList.toggle('open');
+  menuBtn.classList.toggle('open');
+});
+
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    e.preventDefault();
+    const target = document.querySelector(a.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      navLinks.classList.remove('open');
+      menuBtn.classList.remove('open');
+    }
+  });
+});
+
+// Navbar scroll effect
+window.addEventListener('scroll', () => {
+  document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 50);
+});
+
+// Intersection Observer for animations
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('animate-in');
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.feature-card, .role-card, .format-card, .price-card').forEach(el => {
+  observer.observe(el);
+});
+</script>
+</body>
+</html>
